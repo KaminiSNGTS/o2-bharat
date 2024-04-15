@@ -1,0 +1,34 @@
+.active-image {
+    position: relative;
+}
+.testimonial-data {
+    position: absolute;
+    top: 38%;
+    padding: 0 20px;
+    width: 100%;
+}
+.admin-bttn {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}
+p.e-desc {
+    font-size: 30px;
+    color: white;
+    line-height: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.btm-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+h5.e-desc2 {
+    color: #FFD502;
+    font-size: 18px;
+    font-weight: 600;
+}

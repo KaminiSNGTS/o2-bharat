@@ -1,0 +1,10 @@
+.upevents-container{
+    background-image: url('../../../public/assets/images/events-bg-img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.update-container{
+    padding-top: 80px;
+}

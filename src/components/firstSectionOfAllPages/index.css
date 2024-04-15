@@ -1,0 +1,24 @@
+h2.sec1-h1 {
+    font-size: 18px;
+    color: #FFD502;
+    font-weight: 700;
+}
+h1.sec1-h2 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 75px;
+    color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 12px;
+}
+p.sec1-pg {
+    color: #CBD5E0;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.f-sec-container{
+    width: 100%;
+    text-align: center;
+    padding: 65px;
+}

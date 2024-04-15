@@ -1,0 +1,48 @@
+main.nav-container {
+    width: 100%;
+    justify-content: space-between;
+    padding: 12px 32px;
+    background-color: var(--headerbg);
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 1px 1px 8px 2px rgb(211 211 211 / 58%);
+}
+ul.links-container { 
+    gap: 20px;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+button.donate-btn.flex {
+    background-color: var(--yellow);
+    padding: 10px 20px;
+    font-size: 16px;
+    gap: 8px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+hr.hr-line {
+    height: 32px;
+    width: 2px;
+    background-color: black;
+    opacity: 18%;
+}
+.nav-btn-container {
+    gap: 20px;
+}
+.login-text {
+    color: var(--btnbg);
+    font-size: 16px;
+    font-weight: 500;
+}
+li.list-li {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+main.nav-container.flex.scrolled {
+    background-color: white;
+}

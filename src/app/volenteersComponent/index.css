@@ -1,0 +1,79 @@
+.vp-container {
+    width: 100%;
+    background-image: url('../../../public/assets/images/h1-map.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 65px;
+}
+h1.vp-h1 {
+    color: #A0AEC0;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+h1.vp-h2 {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.vp-card-content {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 20px;
+}
+.vp-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: white;
+    box-shadow: 0px 0px 10px 1px #d3d3d378;
+    border-radius: 20px;
+    padding: 15px 20px;
+}
+h1.vp-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+p.vp-p {
+    font-size: 14px;
+    color: #718096;
+    font-weight: 400;
+}
+.banner-container{
+    background-image: url('../../../public/assets/images/h2-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 70px;
+    margin-top: 30px;
+}
+h1.banner-h1 {
+    color: #FFD502;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+}
+h1.banner-h2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    width: 70%;
+    line-height: 60px;
+    margin-top: 10px;
+}
+button.b-donate-btn {
+    background-color: #FFD502;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 215px;
+}

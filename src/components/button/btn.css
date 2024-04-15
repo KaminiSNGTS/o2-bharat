@@ -1,0 +1,8 @@
+.btn-style {
+    background-color: var(--btnbg);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}

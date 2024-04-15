@@ -1,0 +1,118 @@
+.about-1section{
+    background-image: url('../../../public/assets/images/about-bg-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.about-container {
+    padding-top: 80px;
+}
+
+.ab-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    margin-top: 28px;
+}
+.ab-card {
+    box-shadow: 0px 0px 12px 1px #d3d3d340;
+    border-radius: 0px 25px 0px 25px;
+    padding: 15px 20px 20px;
+    position: relative;
+    background-color: white;
+}
+
+h1.ab-number-style {
+    font-size: 50px;
+    font-weight: 900;
+    color: #00715D;
+    opacity: 10%;
+    position: absolute;
+    right: 10%;
+    top: 20px;
+}
+h1.ab-card-heading {
+    font-size: 20px;
+    font-weight: 700;
+}
+p.ab-card-pg {
+    color: #718096;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+.ab-2section {
+    width: 100%;
+    background-image: url('../../../public/assets/images/misson-bg-img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1.ab-sec2-h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--btnbg);
+}
+h1.ab-sec2-h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.ab-2section-2container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 65px;
+}
+p.ab-sec2-pg {
+    width: 75%;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--pgColor);
+    margin-top: 12px;
+}
+.v-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four cards per row */
+    gap: 10px; /* Adjust this value for spacing between cards */
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.ab-sec2-container {
+    width: 100%;
+    padding: 65px;
+}
+.ab-3section {
+    width: 100%;
+    height: 1080px;
+}
+.show-btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+button.show-more-btn {
+    background: #00715D;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.ab-v-card-container{
+    margin: 20px 165px;
+    border-radius: 25px;
+    width: 95% !important;
+    box-shadow: 0px 0px 10px 1px #d3d3d354;
+    background-color: white;
+}
+.ab-carousel-container {
+    width: 96%;
+    margin: auto;
+}
